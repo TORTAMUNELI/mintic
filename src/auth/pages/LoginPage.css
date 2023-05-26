@@ -1,0 +1,23 @@
+.login-container {
+  height: 100%;
+  width: 100%;
+  background-color: #222831;
+}
+
+.login-box {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-decorator {
+  background-color: #eeeeee;
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.iniciar-sesion {
+  height: 3rem;
+  font-size: 1.25rem;
+}

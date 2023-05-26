@@ -1,0 +1,24 @@
+.vamos {
+  background-color: #222831;
+}
+
+.register-container {
+  height: 100%;
+  background-color: #222831;
+}
+
+.register-box {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  height: 100%;
+  background-color: #222831;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-decorator {
+  background-color: #eeeeee;
+  width: 100%;
+  border-radius: 1rem;
+}

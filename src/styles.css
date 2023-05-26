@@ -1,0 +1,93 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: IbarraRealNova;
+  background: rgb(0,173,181);
+  background: radial-gradient(circle, rgba(0,173,181,1) 0%, rgba(238,238,238,1) 70%);
+}
+
+.root {
+  height: 100%;
+}
+
+.bck-white {
+  background-color: #eeeeee;
+}
+
+@font-face {
+  font-family: IbarraRealNova;
+  src: url("../assets/IbarraRealNova-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: IbarraRealNovaItalic;
+  src: url("../assets/IbarraRealNova-Italic-VariableFont_wght.ttf");
+}
+
+.btn-p {
+  width: 100%;
+  border-radius: 1rem;
+  border-style: solid;
+  border-color: #00adb5;
+  color: #00adb5;
+}
+
+.btn-p:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 0.3rem 0px #00adb5;
+}
+
+.blanco {
+  color: #eeeeee;
+}
+
+.btn-nice {
+  border-radius: 1rem;
+  border-style: solid;
+  border-color: #00adb5;
+  color: #00adb5;
+}
+
+.btn-bad {
+  border-radius: 1rem;
+  border-style: solid;
+  border-color: #f05454;
+  color: #f05454;
+}
+
+.hover-pointer:hover {
+  cursor: pointer;
+  box-shadow: 0px 0.3rem 0.3rem -0.3rem black;
+}
+
+img {
+  max-width: 70%;
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid;
+  border-color: #222831 transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.titulo {
+  margin-top: 2rem;
+  font-size: 3rem;
+  font-family: IbarraRealNovaItalic;
+  color: #eeeeee;
+}
